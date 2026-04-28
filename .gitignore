@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules
+node_modules/
+.tanstack/
+.wrangler/
+dist/
+*.lockb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nested git repositories
+edna/model/dnaforge-pro/
