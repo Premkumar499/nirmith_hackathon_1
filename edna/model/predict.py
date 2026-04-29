@@ -70,7 +70,7 @@ def main():
     biodiversity_report(results, output_path="biodiversity_pie.png")
     
 
-    # Save results - only the display columns
+    
     output_file = "test_predictions.csv"
     results_sorted[display_cols].to_csv(output_file, index=False)
     print(f"\n  💾  Results saved to: {output_file}")
